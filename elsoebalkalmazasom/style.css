@@ -1,0 +1,90 @@
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center{
+    margin: auto;
+    width: 1100px;
+    height: 680px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.topbox{
+    box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%) !important;
+    margin-bottom: 20px;
+}
+
+.step{
+    width: 100px;
+    height: 600px;
+    background-color: rgb(51, 109, 82);
+    text-align: center;
+    line-height: 600px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#large{
+    height: 600px;
+    width: 900px;
+    background-size: cover;
+    position: relative;
+}
+
+#overlay{
+    background-color: black;
+    opacity: 50%;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    position: absolute;
+    padding: 20px;
+}
+
+#overlay .title{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#overlay .description{
+    color: white;
+}
+
+#tumbnails{
+    align-items: center;
+    justify-content: center;
+}
+
+.tumbnail{
+    width: 90px;
+    height: 60px;
+    margin: 5px;
+    background-size: cover;
+    box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%) !important;
+}
+
+.tumbnail:hover{
+    width: 100px;
+    height: 70px;
+    margin: 0px;
+}
+
+.tumbnail.selected:hover{
+    width: 90px;
+    height: 60px;
+    margin: 5px;
+}
+
+.selected{
+    border: 5px solid rgb(51, 109, 82);
+}
